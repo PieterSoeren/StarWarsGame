@@ -1,0 +1,64 @@
+body {
+    background-image: url('fotos/backgroundplanet.png'); /* Replace 'backgroundplanet.png' with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 10%;
+    width: 5%;
+}
+
+.laser {
+    position: absolute;
+    width: 2px; /* Adjust the laser width as needed */
+    height: 30px; /* Adjust the laser height as needed */
+    background-color: rgb(255, 0, 0); /* Change the laser color as needed */
+}
+
+.rock {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.timer {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    color: white;
+    font-size: 18px;
+}
+
+#controls {
+    position: absolute;
+    top: 70%;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    /* Set the initial visibility to block */
+    display: block;
+}
+
+#controls h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#controls p {
+    font-size: 14px;
+    margin: 0;
+}
+
