@@ -46,10 +46,4 @@ X-wing and Rocks is a simple browser game where you control an X-wing starfighte
 - Background image: [backgroundplanet.png]
 - Music: [Star Wars RPG Space Combat Music.mp3]
 
-## Screenshots
 
-(Add some screenshots of your game here to give users a visual idea of the gameplay.)
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
